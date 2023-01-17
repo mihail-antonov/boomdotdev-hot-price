@@ -90,23 +90,6 @@
       </div>
     </div>
 
-  <script type="application/javascript">
-
-    window.addEventListener("DOMContentLoaded", () => {
-
-      let products = document.querySelectorAll('.card');
-
-      products.forEach(product => {
-
-        let price = product.getElementsByClassName('price')[0];
-
-        if (price.classList.contains('hot')) {
-
-          price.append('🔥');
-        }
-      });
-    });
-
-  </script>
+  <script src="src/js/app.js" type="application/javascript"></script>
   </body>
 </html>
